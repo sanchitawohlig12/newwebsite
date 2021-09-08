@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Acme&family=Amatic+SC&family=Crimson+Text&family=Dancing+Script&family=Dawning+of+a+New+Day&family=Indie+Flower&family=Josefin+Slab:wght@100&family=Kaushan+Script&family=Lobster+Two&family=Playfair+Display&family=Shadows+Into+Light&display=swap');
+
+/* font-family: 'Abhaya Libre', serif;
+font-family: 'Acme', sans-serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Crimson Text', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Dawning of a New Day', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Josefin Slab', serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lobster Two', cursive; 
+font-family: 'Playfair Display', serif;
+font-family: 'Shadows Into Light', cursive; */
+
+:root {
+  /* Component Colors */
+  --divider: #c2c2c2;
+  --post-heading: #4d4d4d;
+  --text-hover: #7B5EC1;
+  --white: #ffffff;
+
+  /* Fonts */
+  --title: 'Playfair Display', serif;
+  --subtitle: 'Josefin Slab', serif;
+
+  /* Font Colors */
+
+  /* Gradient Colors */
+  --sky: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+* {
+  margin:  0 auto;
+  padding: 0;
+}
+
+/* Global Variables */
+.head {
+  text-align: center;
+}
+
+h1 {
+  /*font-family: var(--title);*/
+  font-weight: normal;
+  font-size: 2.4rem;
+}
+
+/*p {
+  font-family: var(--subtitle);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.25rem;
+}*/
